@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container {
+            background: linear-gradient(to bottom,rgba(0,175,239,0) 0%,rgba(0,175,239,0) 2%,rgba(0,175,239,0) 7%,rgba(240,47,23,0) 21%,rgba(124,109,127,0) 34%,rgba(0,175,239,0.39) 70%),url(https://t4.ftcdn.net/jpg/06/03/71/97/360_F_603719733_I9zSRZ2tNm0NO0OGzmvdhQpeJvkTe4Fg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .top {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 25px;
+        }
+
+        .a {
+            color: grey;
+            font-size: 25px;
+            padding-left: 10px;
+        }
+
+        .html {
+            height: 300px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin: 80px;
+        }
+
+        .htmlhead {
+            font-size: 50px;
+        }
+
+        .mailbox {
+            background-color: black;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .mail {
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            padding-right: 10px;
+        }
+
+        .but {
+            width: 250px;
+            height: 33px;
+            background-color: rgb(70, 185, 185);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .features {
+            background-color: rgb(247, 239, 239);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .icon {
+            color: #444;
+            padding: 20px;
+            border: 2px solid #00aeef;
+            border-radius: 50%;
+            width: 50px;
+        }
+
+        .p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            font-size: 20px;
+
+            p {
+                font-weight: 500;
+                margin-left: 5px;
+            }
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        hr {
+            border-top: 3px solid grey;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            line-height: 0px;
+        }
+
+        .container2 {
+            padding-top: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0px;
+
+            .b {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 900px;
+            }
+        }
+
+        .container3 {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+
+            background-color: white;
+
+            img {
+                padding-left: 100px;
+                height: 50px;
+            }
+        }
+
+        .container4 {
+            background-color: rgb(247, 239, 239);
+            padding-top: 20px;
+            padding-bottom: 40px;
+
+            h2 {
+                text-align: center;
+            }
+
+            .p {
+                text-align: center;
+            }
+
+        }
+
+        .sub {
+            width: 400px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+
+            .i {
+                background-color: rgb(231, 231, 231);
+
+                img {
+                    margin: 10px;
+                    border-radius: 50%;
+                    padding-top: 10px;
+                }
+            }
+
+            .c {
+                background-color: white;
+                padding-left: 8px;
+
+                span {
+                    color: rgb(90, 159, 228);
+                }
+            }
+        }
+
+        .subcontainer {
+            display: flex;
+            justify-content: center;
+        }
+        .container5{
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            .con5{
+                width: 800px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 90px;
+                h2,p,.d{
+                    text-align: center;
+                }
+                button{
+                    text-align: center;
+                    color: white;
+                    background-color:rgb(90, 159, 228); 
+                    font-weight: 700;
+                    padding: 15px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    border-radius: 10px;
+                    border: none;
+                }
+            }
+        }
+        .footer{
+            background-color: rgb(247, 239, 239);
+            padding-top: 20px;display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-bottom: 20px;
+            font-size: 15px;
+            .s{
+                color: rgb(207, 64, 64);
+                font-weight: 600;
+
+            }
+        }
+        .f{
+            font-size: 20px;
+            color: rgb(126, 125, 123);
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/logo.png"
+                alt="">
+            <div>
+                <span>Stay connected</span>
+                <i class="fa-brands fa-facebook a"></i>
+                <i class="fa-brands fa-square-twitter a"></i>
+                <i class="fa-brands fa-youtube a"></i>
+            </div>
+        </div>
+        <div class="html">
+            <h1 class="htmlhead">HTML BUNDLE IS HERE</h1>
+            <p>More than 10 unique HTML templates in one bundle isn't that awesome with a lot of features and great
+                design brought to you by PixFort.</p>
+            <div class="mailbox">
+                <input type="email" class="mail" placeholder="Enter Your Email">
+                <button class="but">SUBSCRIBE NOW</button>
+            </div>
+            <p>*Note: Bundle ends in two weeks from now.</p>
+        </div>
+        <div class="features">
+            <div class="p">
+                <div class="icon">
+                    <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/1.png"
+                        alt="">
+                </div>
+                <p><span>+1500 </span>High quality video tutorials.</p>
+            </div>
+            <div class="p">
+                <div class="icon">
+                    <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/2.png"
+                        alt="">
+                </div>
+                <p><span>+40 Days </span>Free trial demo subscribtion.</p>
+            </div>
+            <div class="p">
+                <div class="icon">
+                    <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/3.png"
+                        alt="">
+                </div>
+                <p><span>+75 </span>New books from store.</p>
+            </div>
+        </div>
+        <hr />
+        <div class="container2">
+            <div class="b">
+                <div>
+                    <h1>The most amazing thing is here</h1>
+                    <h3>Our service is astonishingly thin and light.
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/machine.png"
+                    alt="">
+            </div>
+            <div class="b">
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/domains-that-never-sleep.png"
+                    alt="">
+                <div>
+                    <h1>The most amazing thing is here</h1>
+                    <h3>Our service is astonishingly thin and light.
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="b">
+                <div>
+                    <h1>The most amazing thing is here</h1>
+                    <h3>Our service is astonishingly thin and light.
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/website-builder.png"
+                    alt="">
+            </div>
+        </div>
+        <div class="container3">
+            <h2>Great people trusted our services
+            </h2>
+            <p>great words from great people
+            </p>
+            <div>
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/logo_1.png"
+                    alt="">
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/logo_2.png"
+                    alt="">
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/logo_3.png"
+                    alt="">
+                <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/logo_4.png"
+                    alt="">
+            </div>
+        </div>
+        <div class="container4">
+            <h2>What our awesome clients say</h2>
+            <p class="p">great words from great people
+            </p>
+            <div class="subcontainer">
+                <div class="sub">
+                    <div class="i">
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/testimonials/envato-logo.png"
+                            alt="">
+                    </div>
+                    <div class="c">
+                        <p>Im a web designer, you guys are very inspiring I wish to see more work from maybe more
+                            freebies.</p>
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/stars.original.png"
+                            alt="">
+                        <span>via Envato.com</span>
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="i">
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/testimonials/unboune-logo.png"
+                            alt="">
+                    </div>
+                    <div class="c">
+                        <p>Im a web designer, you guys are very inspiring I wish to see more work from maybe more
+                            freebies.</p>
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/stars.original.png"
+                            alt="">
+                        <span>via Envato.com</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container5">
+            <div class="con5">
+                <div>
+                    <h2>Are you ready for this?
+                    </h2>
+                    <p>More than 10,000 apps are waiting for you with awesome features and prices that will be great for
+                        you, join us now by entering you email and subscribe us now, wow.</p>
+                    <div class="d">
+                        <button>SUBSCRIBE NOW</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal%20new/images/1_normal/speed-and-security.png"
+                    alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>All rights reserved Copyright © 2014 FLATPACK by <span class="s">PixFort</span></p>
+            <div>
+                <span>Your likes & share makes us happy!</span>
+                <i class="fa-brands fa-facebook f"></i>
+                <i class="fa-brands fa-square-twitter f"></i>
+                <i class="fa-brands fa-instagram f"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
